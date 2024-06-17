@@ -1,0 +1,144 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    margin:0px;
+}
+
+header{
+    text-align: center;
+    height: 70px;
+    background-color: #051367;
+    padding: 15px 20px;
+    color: #DFF6FF;
+}
+
+section{
+    background: #DFF6FF;
+    min-height: 580px;
+    display: flex;
+}
+
+.section-kontak{
+    width: 80%;
+    display: flex;
+}
+
+article{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+footer{
+    padding: 3px;
+    text-align: center;
+    background-color: #051367;
+}
+
+
+@media (max-width:700px){
+    .navigasi{
+        flex-direction: column;
+    }
+}
+
+aside{
+    display: inline-block;
+    background-color: #2D31FA;
+    width: 15%;
+}
+
+.content-beranda{
+    display: flex;
+}
+
+.article-beranda{
+    width: 70%;
+}
+
+.profil-beranda{
+    background-color: #051367;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 50px;
+    background: #DFF6FF;
+    margin-left: 10px;
+}
+
+
+.gambar-beranda{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+
+
+.content{
+    display: block;
+    padding-left: 15px;
+}
+
+
+
+
+
+.navigasi{
+    display: flex;
+    margin-left: 0px;
+}
+
+
+
+
+.gambar{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu {
+    padding: 0;
+    margin-top: 0;
+}
+
+.menu li{
+    border-bottom: 1px ridge white;
+}
+
+a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background: #DFF6FF;
+    color: #051367;
+}
+
+.profil-beranda p{
+    margin-left: 10px;
+    text-align: left;
+}
+
+

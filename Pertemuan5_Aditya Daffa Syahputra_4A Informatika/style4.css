@@ -1,0 +1,33 @@
+
+body{
+    background-color: #527853;
+}
+
+*{
+    color: #F9E8D9;
+    text-align: justify;
+}
+.container{
+    margin-top: 40px;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    display: block;
+}
+
+.sub-container{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.sub-kanan{
+    margin-left: 10px;
+    padding-top: 20px;
+}
